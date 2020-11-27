@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 
 const Article = require("./models/Article")
 
-mongoose.connect("mongodb+srv://melihnode:meliherpek1@cluster0.g1oel.mongodb.net/todoapp?retryWrites=true&w=majority", {
+mongoose.connect("", {    // MongoDB Connect Link
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
